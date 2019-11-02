@@ -65,7 +65,6 @@ async function getCandidatesAndVote(nums) {
         
         // 计算投票
         for(let i = 0; i < candidateArr.length; i++) {
-            console.log(candidateArr[i].num ,'vote+')
             candidateArr[i].vote++
         }
 
